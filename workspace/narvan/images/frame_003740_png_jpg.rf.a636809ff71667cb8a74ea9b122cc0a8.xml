@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>frame_003740_png_jpg.rf.a636809ff71667cb8a74ea9b122cc0a8.jpg</filename>
+	<path>frame_003740_png_jpg.rf.a636809ff71667cb8a74ea9b122cc0a8.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>320</width>
+		<height>320</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>imovane7-5mg</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>103</xmin>
+			<xmax>159</xmax>
+			<ymin>175</ymin>
+			<ymax>228</ymax>
+		</bndbox>
+	</object>
+</annotation>

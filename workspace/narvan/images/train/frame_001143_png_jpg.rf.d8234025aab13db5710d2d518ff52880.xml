@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>frame_001143_png_jpg.rf.d8234025aab13db5710d2d518ff52880.jpg</filename>
+	<path>frame_001143_png_jpg.rf.d8234025aab13db5710d2d518ff52880.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>320</width>
+		<height>320</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>fentanyl50ug_ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>134</xmin>
+			<xmax>274</xmax>
+			<ymin>3</ymin>
+			<ymax>153</ymax>
+		</bndbox>
+	</object>
+</annotation>

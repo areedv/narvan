@@ -1,0 +1,100 @@
+item {
+	id: 1
+	name: 'oxycontin5mg'
+}
+
+item {
+	id: 2
+	name: 'imovane7.5mg'
+}
+
+item {
+	id: 3
+	name: 'xanor2mg'
+}
+
+item {
+	id: 4
+	name: 'valium5mg'
+}
+
+item {
+	id: 5
+	name: 'levopidon25mg'
+}
+
+item {
+	id: 6
+	name: 'nobligan_retard200mg'
+}
+
+item {
+	id: 7
+	name: 'metadon_hydrochlorid40mg'
+}
+
+item {
+	id: 8
+	name: 'oxynorm10mg'
+}
+
+item {
+	id: 9
+	name: 'apodonorm5mg'
+}
+
+item {
+	id: 10
+	name: 'dolcontin10mg'
+}
+
+item {
+	id: 11
+	name: 'dolcontin5mg'
+}
+
+item {
+	id: 12
+	name: 'oxycontin15mg'
+}
+
+item {
+	id: 13
+	name: 'sobril25mg'
+}
+
+item {
+	id: 14
+	name: 'buprefarm5ug_hour'
+}
+
+item {
+	id: 15
+	name: 'fentanyl50ug_ml'
+}
+
+item {
+	id: 16
+	name: 'ultiva5mg'
+}
+
+item {
+	id: 17
+	name: 'morfin10mg'
+}
+
+item {
+	id: 18
+	name: 'apodorm5mg'
+}
+
+item {
+	id: 19
+	name: 'midazolam5mg_ml'
+}
+
+item {
+	id: 20
+	name: 'oxycontin10mg'
+}
+

@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>frame_001880_png_jpg.rf.bb7eeaa8dfa7ae4de037a3c3b745e33f.jpg</filename>
+	<path>frame_001880_png_jpg.rf.bb7eeaa8dfa7ae4de037a3c3b745e33f.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>320</width>
+		<height>320</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>oxycontin5mg</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>97</xmin>
+			<xmax>200</xmax>
+			<ymin>114</ymin>
+			<ymax>194</ymax>
+		</bndbox>
+	</object>
+</annotation>

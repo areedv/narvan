@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>frame_006048_png_jpg.rf.5f4ba22328d7cce8aebaff4e4d8bd55d.jpg</filename>
+	<path>frame_006048_png_jpg.rf.5f4ba22328d7cce8aebaff4e4d8bd55d.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>320</width>
+		<height>320</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>buprefarm5ug_hour</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>101</xmin>
+			<xmax>187</xmax>
+			<ymin>145</ymin>
+			<ymax>238</ymax>
+		</bndbox>
+	</object>
+</annotation>

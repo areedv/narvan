@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>frame_002132_png_jpg.rf.4606d33e178f508a58898055a693fe31.jpg</filename>
+	<path>frame_002132_png_jpg.rf.4606d33e178f508a58898055a693fe31.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>320</width>
+		<height>320</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>oxynorm10mg</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>73</xmin>
+			<xmax>179</xmax>
+			<ymin>107</ymin>
+			<ymax>189</ymax>
+		</bndbox>
+	</object>
+</annotation>

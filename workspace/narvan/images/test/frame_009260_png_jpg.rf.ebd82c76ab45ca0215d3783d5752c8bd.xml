@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>frame_009260_png_jpg.rf.ebd82c76ab45ca0215d3783d5752c8bd.jpg</filename>
+	<path>frame_009260_png_jpg.rf.ebd82c76ab45ca0215d3783d5752c8bd.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>320</width>
+		<height>320</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>metadon_hydrochlorid40mg</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>16</xmin>
+			<xmax>216</xmax>
+			<ymin>9</ymin>
+			<ymax>233</ymax>
+		</bndbox>
+	</object>
+</annotation>

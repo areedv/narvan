@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>frame_010167_png_jpg.rf.d6c904c54e0ac1c10452f65dc35dd87c.jpg</filename>
+	<path>frame_010167_png_jpg.rf.d6c904c54e0ac1c10452f65dc35dd87c.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>320</width>
+		<height>320</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>xanor2mg</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>121</xmin>
+			<xmax>173</xmax>
+			<ymin>183</ymin>
+			<ymax>260</ymax>
+		</bndbox>
+	</object>
+</annotation>

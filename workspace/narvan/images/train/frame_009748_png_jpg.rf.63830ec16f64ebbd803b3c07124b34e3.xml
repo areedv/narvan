@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>frame_009748_png_jpg.rf.63830ec16f64ebbd803b3c07124b34e3.jpg</filename>
+	<path>frame_009748_png_jpg.rf.63830ec16f64ebbd803b3c07124b34e3.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>320</width>
+		<height>320</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>sobril25mg</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>114</xmin>
+			<xmax>196</xmax>
+			<ymin>157</ymin>
+			<ymax>258</ymax>
+		</bndbox>
+	</object>
+</annotation>

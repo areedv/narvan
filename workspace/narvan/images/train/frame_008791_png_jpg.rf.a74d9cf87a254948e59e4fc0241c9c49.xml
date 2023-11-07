@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>frame_008791_png_jpg.rf.a74d9cf87a254948e59e4fc0241c9c49.jpg</filename>
+	<path>frame_008791_png_jpg.rf.a74d9cf87a254948e59e4fc0241c9c49.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>320</width>
+		<height>320</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>dolcontin10mg</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>68</xmin>
+			<xmax>194</xmax>
+			<ymin>174</ymin>
+			<ymax>246</ymax>
+		</bndbox>
+	</object>
+</annotation>

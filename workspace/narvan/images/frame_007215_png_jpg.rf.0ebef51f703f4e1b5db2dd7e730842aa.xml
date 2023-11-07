@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>frame_007215_png_jpg.rf.0ebef51f703f4e1b5db2dd7e730842aa.jpg</filename>
+	<path>frame_007215_png_jpg.rf.0ebef51f703f4e1b5db2dd7e730842aa.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>320</width>
+		<height>320</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>morfin10mg</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>123</xmin>
+			<xmax>209</xmax>
+			<ymin>128</ymin>
+			<ymax>208</ymax>
+		</bndbox>
+	</object>
+</annotation>

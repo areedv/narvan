@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>frame_004388_png_jpg.rf.efbae9dea6484eb505762a413f5bac2f.jpg</filename>
+	<path>frame_004388_png_jpg.rf.efbae9dea6484eb505762a413f5bac2f.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>320</width>
+		<height>320</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>levopidon25mg</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>59</xmin>
+			<xmax>235</xmax>
+			<ymin>94</ymin>
+			<ymax>246</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>frame_003276_png_jpg.rf.c019df9177efdd6b3216ed222971a469.jpg</filename>
+	<path>frame_003276_png_jpg.rf.c019df9177efdd6b3216ed222971a469.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>320</width>
+		<height>320</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>apodorm5mg</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>123</xmin>
+			<xmax>223</xmax>
+			<ymin>141</ymin>
+			<ymax>263</ymax>
+		</bndbox>
+	</object>
+</annotation>

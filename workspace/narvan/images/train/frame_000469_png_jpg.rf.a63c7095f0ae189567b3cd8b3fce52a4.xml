@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>frame_000469_png_jpg.rf.a63c7095f0ae189567b3cd8b3fce52a4.jpg</filename>
+	<path>frame_000469_png_jpg.rf.a63c7095f0ae189567b3cd8b3fce52a4.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>320</width>
+		<height>320</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>midazolam5mg_ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>74</xmin>
+			<xmax>176</xmax>
+			<ymin>64</ymin>
+			<ymax>234</ymax>
+		</bndbox>
+	</object>
+</annotation>

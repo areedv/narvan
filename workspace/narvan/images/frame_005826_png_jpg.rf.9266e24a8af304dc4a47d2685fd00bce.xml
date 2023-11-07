@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>frame_005826_png_jpg.rf.9266e24a8af304dc4a47d2685fd00bce.jpg</filename>
+	<path>frame_005826_png_jpg.rf.9266e24a8af304dc4a47d2685fd00bce.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>320</width>
+		<height>320</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>apodonorm5mg</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>86</xmin>
+			<xmax>188</xmax>
+			<ymin>175</ymin>
+			<ymax>240</ymax>
+		</bndbox>
+	</object>
+</annotation>

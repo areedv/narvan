@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>frame_002836_png_jpg.rf.744eb756732047b9be29da5156b050fe.jpg</filename>
+	<path>frame_002836_png_jpg.rf.744eb756732047b9be29da5156b050fe.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>320</width>
+		<height>320</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>valium5mg</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>96</xmin>
+			<xmax>200</xmax>
+			<ymin>171</ymin>
+			<ymax>219</ymax>
+		</bndbox>
+	</object>
+</annotation>

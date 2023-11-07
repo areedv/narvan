@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>frame_003998_png_jpg.rf.fc9769e16e956b7572564d7a2f4a46cd.jpg</filename>
+	<path>frame_003998_png_jpg.rf.fc9769e16e956b7572564d7a2f4a46cd.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>320</width>
+		<height>320</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>nobligan_retard200mg</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>87</xmin>
+			<xmax>141</xmax>
+			<ymin>165</ymin>
+			<ymax>227</ymax>
+		</bndbox>
+	</object>
+</annotation>
