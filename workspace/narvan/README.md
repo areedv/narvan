@@ -1,10 +1,10 @@
 # Manual notebook
 
 ## Set-up
-Basic set up on a plain host (this might be simpler when using a TF docker container?)
+Basic set up on a plain host (this might be simpler when using one of the docker containers provided by tensorflow?)
 
 ### Anaconda
-Download from https://www.anaconda.com/products/individual and run the script
+Download from [this site](https://www.anaconda.com/products/individual) and run the script.
 
 ### Create a new conda environment and activate it
 ```bash
@@ -18,9 +18,9 @@ Verify the installarion of tf:
 python -c "import tensorflow as tf;print(tf.reduce_sum(tf.random.normal([1000, 1000])))"
 ```
 
-If GPU is available now is the time to set it up, see https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html#tf-install
+If GPU is available now is the time to set it up, see [here](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html#tf-install).
 
-Install protobuf from https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html#tf-install unpack and define protobuf/bin directory in PATH env var
+Install protobuf by first downloading the [appropriate zipfile ](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html#tf-install), unpack it and define the `protobuf/bin` directory in the PATH environment variable.
 
 In a new terminal, compile protobuf:
 ```bash
@@ -51,7 +51,7 @@ python object_detection/builders/model_builder_tf2_test.py
 ```
 
 ## Process annotated data
-Annotated data exporter from roboflow as Pascal VOC format. If split already, just collect images and xml files under the image directory, delete train/test/valid foleder and use below script to re-split accordingly.
+Annotated data may be exported from roboflow as Pascal VOC format. If split already, just collect images and xml files under the image directory, delete train/test/valid foleder and use below script to re-split accordingly.
 ```bash
 cd scripts/preprocessing
 python partition_dataset.py -x -i /home/are/git/narvan/workspace/narvan/images -r 0.1
