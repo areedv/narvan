@@ -39,8 +39,9 @@ cp -r pycocotools ~/git/narvan/TensorFlow/models/research/
 ```
 
 ### Install Object Detection API
+From within `TensorFlow/models/research/`:
+
 ```bash
-# From within TensorFlow/models/research/
 cp object_detection/packages/tf2/setup.py .
 python -m pip install .
 ```
@@ -69,4 +70,42 @@ pip install pandas
 Then, create TFRecord for both training and testing:
 ```bash
 python generate_tfrecord.py -x ../../workspace/narvan/images/test -l ../../workspace/narvan/annotations/label_map.pbtxt -o ../../workspace/narvan/annotations/test.record
+python generate_tfrecord.py -x ../../workspace/narvan/images/train -l ../../workspace/narvan/annotations/label_map.pbtxt -o ../../workspace/narvan/annotations/train.record
+```
+
+## Configure training job
+Download a pre-trained model, for instance [this one](http://download.tensorflow.org/models/object_detection/tf2/20200711/ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8.tar.gz).
+and extract the archive content under `worspace/narvan/trained_models`.
+
+Prepare a new model under the directory `workspace/narvan/models/narvan_ssd_mobilenet_v2_fpnlite_320x320` by copying the pipeline used for the pretrained model:
+```bash
+cp pre-trained-models/ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8/pipeline.config models/narvan_ssd_mobilenet_v2_fpnlite_320x320/.
+```
+
+Adjust the pipeline accordingly.
+
+Copy tf object detection training python script to this project (`workspace/narvan`):
+```bash
+cp ../../TensorFlow/models/research/object_detection/model_main_tf2.py .
+```
+
+and star the build from the `workspace/narvan` directory:
+```bash
+python model_main_tf2.py --model_dir=models/narvan_ssd_mobilenet_v2_fpnlite_320x320 --pipeline_config_path=models/narvan_ssd_mobilenet_v2_fpnlite_320x320/pipeline.config
+```
+
+Monitor progress with tensorboard:
+```bash
+tensorboard --logdir=models/narvan_ssd_mobilenet_v2_fpnlite_320x320
+```
+and open [localhost:6006](http://localhost:6006/)
+
+## Export the model
+Copy the python exporter script to `narvan/`:
+```bash
+cp ../../TensorFlow/models/research/object_detection/exporter_main_v2.py .
+```
+and extract the trained inference graph:
+```bash
+python ./exporter_main_v2.py --input_type image_tensor --pipeline_config_path ./models/narvan_ssd_mobilenet_v2_fpnlite_320x320/pipeline.config --trained_checkpoint_dir ./models/narvan_ssd_mobilenet_v2_fpnlite_320x320/ --output_directory ./exported-models/narvan_ssd_mobilenet_v2_fpnlite_320x320
 ```
